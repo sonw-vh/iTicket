@@ -6,7 +6,7 @@
 cd iTicket
 ```
 ```dos
-yarn start
+yarn && yarn start
 ```
 
 ## Client run guide:
@@ -14,5 +14,5 @@ yarn start
 cd client
 ```
 ```dos
-yarn dev
+yarn && yarn dev
 ```
