@@ -190,6 +190,7 @@ export default function HelperButtonGroup() {
                   setShowControlGuide(false)
                 }}
               >
+                <ShareIcon />
               </StyledFab>
             </Tooltip>
             <Tooltip title="Control Guide">
