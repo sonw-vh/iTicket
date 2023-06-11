@@ -190,7 +190,6 @@ export default function HelperButtonGroup() {
                   setShowControlGuide(false)
                 }}
               >
-                <ShareIcon />
               </StyledFab>
             </Tooltip>
             <Tooltip title="Control Guide">
@@ -206,20 +205,6 @@ export default function HelperButtonGroup() {
             </Tooltip>
           </>
         )}
-        <Tooltip title="Visit Our GitHub">
-          <StyledFab
-            size="small"
-            href=""
-            target="_blank"
-          >
-            <GitHubIcon />
-          </StyledFab>
-        </Tooltip>
-        <Tooltip title="Follow Us on Twitter">
-          <StyledFab size="small" href="" target="_blank">
-            <TwitterIcon />
-          </StyledFab>
-        </Tooltip>
         <Tooltip title="Switch Background Theme">
           <StyledFab size="small" onClick={() => dispatch(toggleBackgroundMode())}>
             {backgroundMode === BackgroundMode.DAY ? <DarkModeIcon /> : <LightModeIcon />}
